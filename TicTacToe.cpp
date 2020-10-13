@@ -1,35 +1,13 @@
 // TicTacToe.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <SFML\Graphics.hpp>
-
 #include <iostream>
-
-#define SCREEN_WIDTH 1024
-#define SCREEN_HEIGHT 1024
+#include "Game.hpp"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Tic-Tac-Toe");
-
-	while (window.isOpen()) //Loop while window is open
-	{
-		sf::Event event; // creating event object.
-
-		while (window.pollEvent(event)) // loop if any event presesnt.
-		{
-			switch(event.type)
-			{
-				case sf::Event::Closed:
-					window.close();
-					break;
-			}
-		}
-
-		window.clear();
-		 // just testing.
-		window.display();
-	}
+	TTT::Game(800, 600, "TicTacToe Starter");
+	return EXIT_SUCCESS;
 
 	
 
