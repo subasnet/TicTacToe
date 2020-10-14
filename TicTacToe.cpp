@@ -1,16 +1,11 @@
 // TicTacToe.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
-#include <iostream>
 #include "Game.hpp"
+#include "DEFINITIONS.hpp"
 
 int main()
 {
-	TTT::Game(800, 600, "TicTacToe Starter");
-	return EXIT_SUCCESS;
-
-	
-
+	TTT::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Tic-Tac-Toe");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

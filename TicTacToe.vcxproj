@@ -156,16 +156,55 @@
   <ItemGroup>
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="PauseState.cpp" />
+    <ClCompile Include="SplashState.cpp" />
     <ClCompile Include="StateMachine.cpp" />
     <ClCompile Include="TicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.hpp" />
+    <ClInclude Include="DEFINITIONS.hpp" />
     <ClInclude Include="Game.hpp" />
+    <ClInclude Include="GameOverState.hpp" />
+    <ClInclude Include="GameState.hpp" />
     <ClInclude Include="InputManager.hpp" />
+    <ClInclude Include="MainMenuState.hpp" />
+    <ClInclude Include="PauseState.hpp" />
+    <ClInclude Include="SplashState.hpp" />
     <ClInclude Include="State.hpp" />
     <ClInclude Include="StateMachine.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources11\fonts\arial.ttf" />
+    <Font Include="Resources11\fonts\Marker Felt.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources11\res\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources11\res\Achievements.png" />
+    <Image Include="Resources11\res\Game Title.png" />
+    <Image Include="Resources11\res\Grid.png" />
+    <Image Include="Resources11\res\Home Button.png" />
+    <Image Include="Resources11\res\Main Menu Background.png" />
+    <Image Include="Resources11\res\O Win.png" />
+    <Image Include="Resources11\res\O.png" />
+    <Image Include="Resources11\res\Pause Background.png" />
+    <Image Include="Resources11\res\Pause Button.png" />
+    <Image Include="Resources11\res\Pause Window.png" />
+    <Image Include="Resources11\res\Play Button Outer.png" />
+    <Image Include="Resources11\res\Play Button.png" />
+    <Image Include="Resources11\res\Resume Button.png" />
+    <Image Include="Resources11\res\Retry Button.png" />
+    <Image Include="Resources11\res\Sound Off.png" />
+    <Image Include="Resources11\res\Sound On.png" />
+    <Image Include="Resources11\res\Splash Background.png" />
+    <Image Include="Resources11\res\X Win.png" />
+    <Image Include="Resources11\res\X.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
