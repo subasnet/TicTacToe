@@ -5,7 +5,7 @@
 
 #include "State.hpp"
 
-namespace TTT 
+namespace TTT
 {
 	typedef std::unique_ptr<State> StateRef;
 
